@@ -2,9 +2,13 @@
 
 A native Windows music visualizer that turns system audio into a scrolling landscape of glowing 3D particles. Built with C++20, Direct3D 11 and WASAPI loopback by **uberArius**.
 
+This project was developed with the assistance of **ChatGPT 6**.
+
 [Download for Windows](https://github.com/uberArius/spectral-grid/releases/latest) · [Source code](https://github.com/uberArius/spectral-grid) · [Report a bug](https://github.com/uberArius/spectral-grid/issues)
 
 ![Spectral Grid visualizing music](docs/images/spectral-grid.png)
+
+[Watch the video demo on YouTube](https://www.youtube.com/watch?v=IfH76qnCtKA)
 
 ## Features
 
