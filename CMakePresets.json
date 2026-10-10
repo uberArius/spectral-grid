@@ -1,0 +1,19 @@
+{
+  "version": 3,
+  "configurePresets": [
+    {
+      "name": "windows-x64",
+      "displayName": "Spectral Grid — Windows x64",
+      "generator": "Visual Studio 17 2022",
+      "architecture": "x64",
+      "binaryDir": "${sourceDir}/build",
+      "cacheVariables": { "BUILD_TESTING": "ON" }
+    }
+  ],
+  "buildPresets": [
+    { "name": "release", "configurePreset": "windows-x64", "configuration": "Release" }
+  ],
+  "testPresets": [
+    { "name": "release", "configurePreset": "windows-x64", "configuration": "Release", "output": { "outputOnFailure": true } }
+  ]
+}

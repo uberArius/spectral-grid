@@ -1,0 +1,7 @@
+/build/
+/dist/
+/test-output/
+/test-config/
+/.tools/
+*.user
+imgui.ini
